@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Menu</title>
+	<meta name="description" content="Projects" />
+	<meta name="keywords" content="Menu" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<link rel="stylesheet" href="index.css" type="text/css" /> 
+	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="menu">
+		<h1 class="head"> 
+			BMI Calculator
+		</h1>
+		<div class="sex">
+			<span class="sex__span">
+				Płeć:
+			</span>
+			<input class="sex__male" type="radio" name="sex" checked>M</input>
+			<input class="sex__female" type="radio" name="sex" >K</input>
+		</div>
+		<div class="weight">
+			<input class="weight__input" type="search" placeholder="waga" maxlength="3"> :kg </input>
+		</div>
+		<div class="height">
+			<input class="height__input" type="search" placeholder="wzrost" maxlength="3" >:cm </input>
+		</div>
+		<div class="calculate">
+			<span>
+				Dla obliczenia BMI kliknij oblicz
+			</span>
+			<button  onclick="calculateBMI()">oblicz</button> 
+		</div>
+    </div>
+	<script src="indexJavaScript.js"></script>
+</body>
+</html>

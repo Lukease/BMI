@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 250px;
+  height: 200px;
+  background-color: grey;
+  padding: 60px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.weight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.height {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.calculate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+button {
+  width: 100px;
+  height: 20px;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=index.css.map */
